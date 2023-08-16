@@ -18,7 +18,7 @@ The main topics of each Report are:
  
 ## Report 1
 
-● Go in Yahoo finance and select an asset (Nokia in this case)
+● Go in Yahoo finance and select an asset (Meta Platforms, Inc in this case)
 
 ● Go in "Options" and select a Call with maturity around 3 months and Strike AtTheMoney 
 
@@ -46,7 +46,7 @@ The main topics of each Report are:
 
 ## Report 2
 
-● Choose a dividend paying asset ( Pepesico in this case)
+● Choose a dividend paying asset ( Mastercard Incorporated in this case)
 
 ● Fix a maturity T and consider Call a Put with K1 and K2 (K1<<K2)
 
@@ -80,7 +80,7 @@ The main topics of each Report are:
 
 (empirical)
 
-● Choose in Yahoo an asset which does not pay dividends and on which there is a book of European options
+● Choose in Yahoo an asset which does not pay dividends and on which there is a book of European options (I choose Block Inc. (SQ))
 
 ● Visualize in a 3D picture the implied volatility surface (as a function of the strikes and time to maturities) using the Call prices
 
@@ -117,4 +117,3 @@ The main topics of each Report are:
 
 4) Same as in 3) but applied to Asian options, i.e. path-dependent options with payoff = (1/T\int_0^T S_tdt - K)^+
 
-5) (OPTIONAL) Modify the existing codes in order to deal with other path dependent options, like e.g. lookback options with payoff = S_T - Min(S_t, t<=T) 
